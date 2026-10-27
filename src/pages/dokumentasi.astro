@@ -2,58 +2,55 @@
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Dokumentasi" description="Dokumentasi kegiatan dan kerja DPM FILKOM UNIDA.">
-  <section class="hero">
-    <div class="container">
-      <p class="kicker">Jejak kerja</p>
-      <h1>Dokumentasi <span class="mark">kegiatan</span></h1>
-      <p class="lead" style="margin-top: 16px;">
-        Rekam jejak kegiatan, rapat, dan aksi DPM dalam perjalanan melayani mahasiswa.
+<Layout
+  title="Dokumentasi"
+  description="Arsip kerja DPM FILKOM UNIDA: risalah rapat, laporan komisi, dan dokumen anggaran."
+>
+  <header class="page-head wrap">
+    <div class="axis">
+      <p class="side" data-reveal>Arsip kerja</p>
+      <h1 data-reveal>Dokumentasi</h1>
+      <p class="standfirst" data-reveal>
+        Risalah rapat, laporan komisi, dan dokumen anggaran. Arsip dibuka setelah dokumen siap
+        dipublikasikan.
       </p>
+    </div>
+  </header>
+
+  <section class="archive wrap" aria-labelledby="arsip-title">
+    <div class="axis">
+      <h2 id="arsip-title" data-reveal>Arsip belum dibuka.</h2>
+      <div class="col-2" data-reveal>
+        <p>
+          Belum ada dokumen yang bisa diunduh. Kami tidak mengunggah arsip setengah jadi atau
+          dokumen yang belum diverifikasi. Halaman ini akan berisi arsip yang bisa dibaca siapa
+          saja.
+        </p>
+      </div>
+    </div>
+    <ul class="archive-list">
+      <li data-reveal><span>Risalah rapat pleno</span><span>menyusul</span></li>
+      <li data-reveal><span>Laporan komisi</span><span>menyusul</span></li>
+      <li data-reveal><span>Dokumen anggaran</span><span>menyusul</span></li>
+      <li data-reveal><span>Agenda kegiatan</span><span>menyusul</span></li>
+    </ul>
+    <div class="archive-actions" data-reveal>
+      <a class="btn" href="/aduan/">Tanyakan arsip</a>
+      <p>Dokumen yang memuat data pribadi mahasiswa tidak akan dipublikasikan.</p>
     </div>
   </section>
 
-  <section class="block">
-    <div class="container">
-      <div class="empty">
-        <h2>Belum ada dokumentasi</h2>
-        <p>
-          Foto dan laporan kegiatan akan dimuat di sini setelah pengurus mengumpulkan material.
-          Cek kembali halaman ini di lain waktu.
+  <section class="wrap" aria-labelledby="dok-cta">
+    <div class="axis">
+      <p class="side">Butuh dokumen tertentu?</p>
+      <div class="col-2" data-reveal>
+        <h2 id="dok-cta">Minta lewat jalur resmi.</h2>
+        <p class="lead mt-24">
+          Sebutkan dokumen yang kamu butuhkan dan alasannya. Permintaan akan diteruskan ke
+          sekretariat DPM.
         </p>
-        <p style="margin-top: 20px;">
-          <a class="btn btn-ghost" href="/profil/">Lihat Profil DPM</a>
-        </p>
+        <p class="mt-40"><a class="btn btn-accent" href="/aduan/">Hubungi DPM</a></p>
       </div>
     </div>
   </section>
 </Layout>
-
-<style>
-  .hero {
-    padding-block: 64px;
-  }
-  .block {
-    padding-top: 0;
-  }
-  .empty {
-    background: #fff;
-    border: 1px dashed var(--line);
-    border-radius: 12px;
-    padding: 64px 24px;
-    text-align: center;
-  }
-  .empty h2 {
-    margin-bottom: 12px;
-  }
-  .empty p {
-    color: var(--muted);
-    max-width: 52ch;
-    margin-inline: auto;
-  }
-  @media (max-width: 720px) {
-    .hero {
-      padding-block: 44px;
-    }
-  }
-</style>

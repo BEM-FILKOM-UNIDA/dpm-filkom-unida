@@ -1,0 +1,1882 @@
+{
+ "url": "struktur/index.html",
+ "at": "2026-10-27T12:40:14.715Z",
+ "allow": [
+  "palette-terracotta",
+  "few-pictures"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.58,
+    0.27,
+    0.16,
+    0.65,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 10,
+    "css": 0,
+    "transitions": 10,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4526,
+     "screens": 5,
+     "words": 216,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "bogor-salak.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Struktur",
+     "words": 1,
+     "chars": 8,
+     "lines": 1,
+     "size": 141.1,
+     "vw": 9.8,
+     "font": "Young Serif",
+     "weight": 400,
+     "tracking": -0.025,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.62,
+     "top": 175,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Struktur",
+     "words": 1,
+     "lines": 1,
+     "size": 141.1,
+     "font": "Young Serif"
+    },
+    "headings": [
+     {
+      "text": "Struktur",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 141.1,
+      "vw": 9.8,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.62,
+      "top": 175,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Pimpinan, tiga komisi kerja, dan pembina. Nama pengurus diperbarui setelah rapat pleno.",
+      "words": 12,
+      "chars": 87,
+      "lines": 2,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.46,
+      "top": 333,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Pimpinan.",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 59.8,
+      "vw": 4.2,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.62,
+      "top": 1361,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "[Nama Ketua]",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.12,
+      "top": 1559,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "[Nama Wakil]",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.12,
+      "top": 1638,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "[Nama Sekretaris]",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.15,
+      "top": 1717,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "[Nama Bendahara]",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.16,
+      "top": 1796,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "[Nama Pembina]",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.14,
+      "top": 1875,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Komisi kerja.",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 59.8,
+      "vw": 4.2,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.62,
+      "top": 2176,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Komisi Legislasi",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 2349,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Komisi Kepengawasan",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 2566,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Komisi Anggaran",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 2783,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Aduan masuk lewat komisi yang tepat.",
+      "words": 6,
+      "chars": 36,
+      "lines": 2,
+      "size": 59.8,
+      "vw": 4.2,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.62,
+      "top": 3164,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tulis aduanmu di kartu aspirasi. Kategori yang kamu pilih menentukan komisi yang menindaklanjuti.",
+      "words": 13,
+      "chars": 97,
+      "lines": 3,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.44,
+      "top": 3302,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "DPM FILKOM UNIDA",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 141.1,
+      "vw": 9.8,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3751,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Menampung, mengawal, dan memperjuangkan suara mahasiswa fakultas.",
+      "words": 7,
+      "chars": 65,
+      "lines": 3,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 4031,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 16,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 4,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Young Serif",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      21,
+      28,
+      60,
+      141
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 21,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.1
+     },
+     "measureChars": 62,
+     "max": {
+      "size": 141.1,
+      "vw": 9.8,
+      "font": "Young Serif",
+      "text": "Struktur"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#eef0f2",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.13,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#16526b",
+       "top": 3044,
+       "hsl": {
+        "h": 198,
+        "s": 0.66,
+        "l": 0.25
+       }
+      },
+      {
+       "color": "#0c1d22",
+       "top": 3631,
+       "hsl": {
+        "h": 194,
+        "s": 0.48,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0c1d22",
+       "share": 0.48
+      },
+      {
+       "color": "#55676d",
+       "share": 0.19
+      },
+      {
+       "color": "#f5f8f9",
+       "share": 0.13
+      },
+      {
+       "color": "#f4f7f9",
+       "share": 0.12
+      },
+      {
+       "color": "#f7f8f9",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#f09a4b",
+      "hsl": {
+       "h": 29,
+       "s": 0.85,
+       "l": 0.62
+      },
+      "fg": "#0c1d22"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 57,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Lewati ke konten utama",
+      "Aduan"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.42
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 85,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "source serif 4",
+     "young serif"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4526,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "header.page-head.wrap",
+      "tag": "header",
+      "top": 85,
+      "height": 1156,
+      "words": 28,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Struktur",
+       "size": 141,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 304,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap",
+      "tag": "section",
+      "top": 1241,
+      "height": 815,
+      "words": 36,
+      "media": 0,
+      "middle": 356,
+      "heading": {
+       "text": "Pimpinan.",
+       "size": 60,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap",
+      "tag": "section",
+      "top": 2056,
+      "height": 989,
+      "words": 83,
+      "media": 0,
+      "middle": 212,
+      "heading": {
+       "text": "Komisi kerja.",
+       "size": 60,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 296,
+      "textLeft": 32,
+      "textRight": 296,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.visi.wrap",
+      "tag": "section",
+      "top": 3044,
+      "height": 587,
+      "words": 24,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Aduan masuk lewat komisi yang tepat.",
+       "size": 60,
+       "tag": "h2"
+      },
+      "left": 519,
+      "right": 351,
+      "textLeft": 519,
+      "textRight": 351,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-foot.wrap",
+      "tag": "footer",
+      "top": 3631,
+      "height": 895,
+      "words": 56,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "DPM FILKOM",
+       "size": 141,
+       "tag": "span"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 2868,
+      "height": 280
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Struktur",
+      "size": 141,
+      "top": 175,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 519,
+      "n": 9
+     },
+     {
+      "x": 32,
+      "n": 4
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 21,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.08,
+    "voidBox": {
+     "x": 180,
+     "y": 120,
+     "w": 300,
+     "h": 360
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.65,
+    0.17,
+    0.52,
+    1
+   ],
+   "motion": {
+    "elements": 9,
+    "css": 0,
+    "transitions": 9,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 3966,
+     "screens": 3.9,
+     "words": 209,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "bogor-salak.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Struktur",
+     "words": 1,
+     "chars": 8,
+     "lines": 1,
+     "size": 75.3,
+     "vw": 9.8,
+     "font": "Young Serif",
+     "weight": 400,
+     "tracking": -0.025,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.95,
+     "top": 249,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Struktur",
+     "words": 1,
+     "lines": 1,
+     "size": 75.3,
+     "font": "Young Serif"
+    },
+    "headings": [
+     {
+      "text": "Struktur",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 75.3,
+      "vw": 9.8,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 249,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Pimpinan.",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 42.4,
+      "vw": 5.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 1364,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Komisi kerja.",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 42.4,
+      "vw": 5.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 1947,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Aduan masuk lewat komisi yang tepat.",
+      "words": 6,
+      "chars": 36,
+      "lines": 2,
+      "size": 42.4,
+      "vw": 5.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 2874,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "DPM FILKOM UNIDA",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 75.3,
+      "vw": 9.8,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 3309,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 5,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Young Serif",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      19,
+      23,
+      42,
+      75
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 19.1,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.1
+     },
+     "measureChars": 62,
+     "max": {
+      "size": 75.3,
+      "vw": 9.8,
+      "font": "Young Serif",
+      "text": "Struktur"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.04,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#eef0f2",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.13,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#16526b",
+       "top": 2774,
+       "hsl": {
+        "h": 198,
+        "s": 0.66,
+        "l": 0.25
+       }
+      },
+      {
+       "color": "#0c1d22",
+       "top": 3240,
+       "hsl": {
+        "h": 194,
+        "s": 0.48,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0c1d22",
+       "share": 0.5
+      },
+      {
+       "color": "#55676d",
+       "share": 0.16
+      },
+      {
+       "color": "#f5f8f9",
+       "share": 0.13
+      },
+      {
+       "color": "#f4f7f9",
+       "share": 0.12
+      },
+      {
+       "color": "#f7f8f9",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#f09a4b",
+      "hsl": {
+       "h": 29,
+       "s": 0.85,
+       "l": 0.62
+      },
+      "fg": "#0c1d22"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 54,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Lewati ke konten utama",
+      "Aduan"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.49
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 147,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "source serif 4",
+     "young serif"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 3966,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header.site-head.wrap",
+      "tag": "header",
+      "top": 0,
+      "height": 147,
+      "words": 8,
+      "media": 0,
+      "middle": 44,
+      "heading": null,
+      "left": 20,
+      "right": 311,
+      "textLeft": 20,
+      "textRight": 311,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "header.page-head.wrap",
+      "tag": "header",
+      "top": 147,
+      "height": 997,
+      "words": 26,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Struktur",
+       "size": 75,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 250,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap",
+      "tag": "section",
+      "top": 1144,
+      "height": 730,
+      "words": 34,
+      "media": 0,
+      "middle": 305,
+      "heading": {
+       "text": "Pimpinan.",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap",
+      "tag": "section",
+      "top": 1875,
+      "height": 899,
+      "words": 80,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Komisi kerja.",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 173,
+      "textLeft": 20,
+      "textRight": 173,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.visi.wrap",
+      "tag": "section",
+      "top": 2774,
+      "height": 466,
+      "words": 24,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Aduan masuk lewat komisi yang tepat.",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 274,
+      "textLeft": 20,
+      "textRight": 274,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-foot.wrap",
+      "tag": "footer",
+      "top": 3240,
+      "height": 727,
+      "words": 56,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "DPM FILKOM",
+       "size": 75,
+       "tag": "span"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Struktur",
+      "size": 75,
+      "top": 249,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 13
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.48,
+    0.28,
+    0.43,
+    0.93,
+    1
+   ],
+   "motion": {
+    "elements": 9,
+    "css": 0,
+    "transitions": 9,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3719,
+     "screens": 4.4,
+     "words": 209,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "bogor-salak.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Struktur",
+     "words": 1,
+     "chars": 8,
+     "lines": 1,
+     "size": 54.4,
+     "vw": 13.9,
+     "font": "Young Serif",
+     "weight": 400,
+     "tracking": -0.025,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 281,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Struktur",
+     "words": 1,
+     "lines": 1,
+     "size": 54.4,
+     "font": "Young Serif"
+    },
+    "headings": [
+     {
+      "text": "Struktur",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 54.4,
+      "vw": 13.9,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 281,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Pimpinan.",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 32.5,
+      "vw": 8.3,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1103,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Komisi kerja.",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 32.5,
+      "vw": 8.3,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1655,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Aduan masuk lewat komisi yang tepat.",
+      "words": 6,
+      "chars": 36,
+      "lines": 2,
+      "size": 32.5,
+      "vw": 8.3,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2705,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "DPM FILKOM UNIDA",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 46.8,
+      "vw": 12,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3105,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 5,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Young Serif",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      18,
+      20,
+      33,
+      47,
+      54
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 18,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.1
+     },
+     "measureChars": 39,
+     "max": {
+      "size": 54.4,
+      "vw": 13.9,
+      "font": "Young Serif",
+      "text": "Struktur"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.04,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#eef0f2",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.13,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#16526b",
+       "top": 2605,
+       "hsl": {
+        "h": 198,
+        "s": 0.66,
+        "l": 0.25
+       }
+      },
+      {
+       "color": "#0c1d22",
+       "top": 3041,
+       "hsl": {
+        "h": 194,
+        "s": 0.48,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0c1d22",
+       "share": 0.5
+      },
+      {
+       "color": "#55676d",
+       "share": 0.16
+      },
+      {
+       "color": "#f5f8f9",
+       "share": 0.13
+      },
+      {
+       "color": "#f4f7f9",
+       "share": 0.12
+      },
+      {
+       "color": "#f7f8f9",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#f09a4b",
+      "hsl": {
+       "h": 29,
+       "s": 0.85,
+       "l": 0.62
+      },
+      "fg": "#0c1d22"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Lewati ke konten utama",
+      "Aduan"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.28
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 197,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "source serif 4",
+     "young serif"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 3719,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header.site-head.wrap",
+      "tag": "header",
+      "top": 0,
+      "height": 197,
+      "words": 8,
+      "media": 0,
+      "middle": 26,
+      "heading": null,
+      "left": 20,
+      "right": 27,
+      "textLeft": 20,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "header.page-head.wrap",
+      "tag": "header",
+      "top": 197,
+      "height": 686,
+      "words": 26,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Struktur",
+       "size": 54,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap",
+      "tag": "section",
+      "top": 883,
+      "height": 700,
+      "words": 34,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Pimpinan.",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap",
+      "tag": "section",
+      "top": 1583,
+      "height": 1022,
+      "words": 80,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Komisi kerja.",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 34,
+      "textLeft": 20,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.visi.wrap",
+      "tag": "section",
+      "top": 2605,
+      "height": 436,
+      "words": 24,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Aduan masuk lewat komisi yang tepat.",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 22,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-foot.wrap",
+      "tag": "footer",
+      "top": 3041,
+      "height": 678,
+      "words": 56,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "DPM FILKOM",
+       "size": 47,
+       "tag": "span"
+      },
+      "left": 20,
+      "right": 30,
+      "textLeft": 20,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Struktur",
+      "size": 54,
+      "top": 281,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 13
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 10 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/alee/Destop/dpm/.taste-skill/after-struktur/desktop-fold.jpg",
+   "pages": [
+    "/home/alee/Destop/dpm/.taste-skill/after-struktur/desktop-page-01.jpg",
+    "/home/alee/Destop/dpm/.taste-skill/after-struktur/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/alee/Destop/dpm/.taste-skill/after-struktur/tablet-fold.jpg",
+   "pages": [
+    "/home/alee/Destop/dpm/.taste-skill/after-struktur/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/alee/Destop/dpm/.taste-skill/after-struktur/mobile-fold.jpg",
+   "pages": [
+    "/home/alee/Destop/dpm/.taste-skill/after-struktur/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

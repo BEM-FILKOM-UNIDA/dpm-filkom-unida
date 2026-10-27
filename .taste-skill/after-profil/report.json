@@ -1,0 +1,1931 @@
+{
+ "url": "profil/index.html",
+ "at": "2026-10-27T12:31:15.805Z",
+ "allow": [
+  "palette-terracotta",
+  "few-pictures"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.23,
+    0.62,
+    0.8,
+    0.25,
+    0.68,
+    1
+   ],
+   "motion": {
+    "elements": 13,
+    "css": 0,
+    "transitions": 13,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4887,
+     "screens": 5.4,
+     "words": 263,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "tjileboet.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Tentang DPM",
+     "words": 2,
+     "chars": 11,
+     "lines": 2,
+     "size": 141.1,
+     "vw": 9.8,
+     "font": "Young Serif",
+     "weight": 400,
+     "tracking": -0.025,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.62,
+     "top": 175,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Tentang DPM",
+     "words": 2,
+     "lines": 2,
+     "size": 141.1,
+     "font": "Young Serif"
+    },
+    "headings": [
+     {
+      "text": "Tentang DPM",
+      "words": 2,
+      "chars": 11,
+      "lines": 2,
+      "size": 141.1,
+      "vw": 9.8,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.62,
+      "top": 175,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Lembaga perwakilan mahasiswa tingkat fakultas: siapa kami, apa yang kami jaga, dan bagaimana kami bekerja.",
+      "words": 15,
+      "chars": 106,
+      "lines": 3,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.46,
+      "top": 467,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Membaca kebijakan dari sisi mahasiswa.",
+      "words": 5,
+      "chars": 38,
+      "lines": 2,
+      "size": 59.8,
+      "vw": 4.2,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.62,
+      "top": 818,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Visi dan misi.",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 59.8,
+      "vw": 4.2,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 2212,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Menjadi lembaga perwakilan mahasiswa yang responsif, transparan, dan hadir untuk seluruh mahasiswa Filkom.",
+      "words": 13,
+      "chars": 106,
+      "lines": 3,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.4,
+      "top": 2212,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Tugas dan fungsi.",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 59.8,
+      "vw": 4.2,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.62,
+      "top": 2904,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Menyampaikan aspirasi dan pendapat mahasiswa kepada pihak fakultas.",
+      "words": 8,
+      "chars": 67,
+      "lines": 2,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 3001,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "Melegislasi aturan kelembagaan kemahasiswaan di lingkungan fakultas.",
+      "words": 7,
+      "chars": 68,
+      "lines": 2,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 3090,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "Mengawasi kinerja lembaga eksekutif mahasiswa dan petugas dinas.",
+      "words": 8,
+      "chars": 64,
+      "lines": 2,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 3178,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "Menginventarisasi akhir masa jabatan dan melaporkan jawabannya.",
+      "words": 7,
+      "chars": 63,
+      "lines": 2,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 3267,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "Ada yang perlu kami dengar?",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 59.8,
+      "vw": 4.2,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.62,
+      "top": 3582,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Aduan, usul, atau temuan bisa dikirim langsung ke pengurus. Setiap pesan dicatat dan diteruskan ke komisi yang mengurusnya.",
+      "words": 18,
+      "chars": 123,
+      "lines": 3,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.44,
+      "top": 3663,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "DPM FILKOM UNIDA",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 141.1,
+      "vw": 9.8,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 4112,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Menampung, mengawal, dan memperjuangkan suara mahasiswa fakultas.",
+      "words": 7,
+      "chars": 65,
+      "lines": 3,
+      "size": 27.7,
+      "vw": 1.9,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 4391,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 9,
+     "centered": 0,
+     "medianWords": 7,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.94,
+       "mono": false
+      },
+      {
+       "family": "Young Serif",
+       "share": 0.06,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      21,
+      28,
+      60,
+      141
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 21,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.1
+     },
+     "measureChars": 62,
+     "max": {
+      "size": 141.1,
+      "vw": 9.8,
+      "font": "Young Serif",
+      "text": "Tentang DPM"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#eef0f2",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.13,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#16526b",
+       "top": 2092,
+       "hsl": {
+        "h": 198,
+        "s": 0.66,
+        "l": 0.25
+       }
+      },
+      {
+       "color": "#0c1d22",
+       "top": 3992,
+       "hsl": {
+        "h": 194,
+        "s": 0.48,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0c1d22",
+       "share": 0.57
+      },
+      {
+       "color": "#f5f8f9",
+       "share": 0.23
+      },
+      {
+       "color": "#f4f7f9",
+       "share": 0.09
+      },
+      {
+       "color": "#55676d",
+       "share": 0.04
+      },
+      {
+       "color": "#f7f8f9",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#f09a4b",
+      "hsl": {
+       "h": 29,
+       "s": 0.85,
+       "l": 0.62
+      },
+      "fg": "#0c1d22"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 57,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Lewati ke konten utama",
+      "Aduan"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 85,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "source serif 4",
+     "young serif"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4887,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "header.page-head.wrap",
+      "tag": "header",
+      "top": 85,
+      "height": 614,
+      "words": 19,
+      "media": 0,
+      "middle": 397,
+      "heading": {
+       "text": "Tentang DPM",
+       "size": 141,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 280,
+      "textLeft": 32,
+      "textRight": 280,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap",
+      "tag": "section",
+      "top": 698,
+      "height": 1393,
+      "words": 84,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Membaca kebijakan dari sisi mahasiswa.",
+       "size": 60,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 284,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.visi.wrap",
+      "tag": "section",
+      "top": 2092,
+      "height": 692,
+      "words": 54,
+      "media": 0,
+      "middle": 93,
+      "heading": {
+       "text": "Visi dan misi.",
+       "size": 60,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 352,
+      "textLeft": 32,
+      "textRight": 352,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap",
+      "tag": "section",
+      "top": 2784,
+      "height": 678,
+      "words": 42,
+      "media": 0,
+      "middle": 354,
+      "heading": {
+       "text": "Tugas dan fungsi.",
+       "size": 60,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 238,
+      "textLeft": 32,
+      "textRight": 238,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap",
+      "tag": "section",
+      "top": 3462,
+      "height": 530,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Ada yang perlu kami dengar?",
+       "size": 60,
+       "tag": "h2"
+      },
+      "left": 519,
+      "right": 89,
+      "textLeft": 519,
+      "textRight": 89,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-foot.wrap",
+      "tag": "footer",
+      "top": 3992,
+      "height": 895,
+      "words": 56,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "DPM FILKOM",
+       "size": 141,
+       "tag": "span"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Tentang DPM",
+      "size": 141,
+      "top": 175,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 519,
+      "n": 9
+     },
+     {
+      "x": 32,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 10,
+    "bodySize": 21,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.2,
+    "voidBox": {
+     "x": 0,
+     "y": 600,
+     "w": 1440,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.36,
+    0.84,
+    0.56,
+    0.83
+   ],
+   "motion": {
+    "elements": 12,
+    "css": 0,
+    "transitions": 12,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 3991,
+     "screens": 3.9,
+     "words": 255,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "tjileboet.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Tentang DPM",
+     "words": 2,
+     "chars": 11,
+     "lines": 1,
+     "size": 75.3,
+     "vw": 9.8,
+     "font": "Young Serif",
+     "weight": 400,
+     "tracking": -0.025,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.95,
+     "top": 249,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Tentang DPM",
+     "words": 2,
+     "lines": 1,
+     "size": 75.3,
+     "font": "Young Serif"
+    },
+    "headings": [
+     {
+      "text": "Tentang DPM",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 75.3,
+      "vw": 9.8,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 249,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Membaca kebijakan dari sisi mahasiswa.",
+      "words": 5,
+      "chars": 38,
+      "lines": 2,
+      "size": 42.4,
+      "vw": 5.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 603,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Visi dan misi.",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 42.4,
+      "vw": 5.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 1774,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tugas dan fungsi.",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 42.4,
+      "vw": 5.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 2397,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ada yang perlu kami dengar?",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 42.4,
+      "vw": 5.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 2939,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "DPM FILKOM UNIDA",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 75.3,
+      "vw": 9.8,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 3334,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.94,
+       "mono": false
+      },
+      {
+       "family": "Young Serif",
+       "share": 0.06,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      19,
+      23,
+      42,
+      75
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 19.1,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.1
+     },
+     "measureChars": 62,
+     "max": {
+      "size": 75.3,
+      "vw": 9.8,
+      "font": "Young Serif",
+      "text": "Tentang DPM"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#eef0f2",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.13,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#16526b",
+       "top": 1702,
+       "hsl": {
+        "h": 198,
+        "s": 0.66,
+        "l": 0.25
+       }
+      },
+      {
+       "color": "#0c1d22",
+       "top": 3265,
+       "hsl": {
+        "h": 194,
+        "s": 0.48,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0c1d22",
+       "share": 0.58
+      },
+      {
+       "color": "#f5f8f9",
+       "share": 0.24
+      },
+      {
+       "color": "#f4f7f9",
+       "share": 0.1
+      },
+      {
+       "color": "#f7f8f9",
+       "share": 0.04
+      },
+      {
+       "color": "#f5f8f8",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#f09a4b",
+      "hsl": {
+       "h": 29,
+       "s": 0.85,
+       "l": 0.62
+      },
+      "fg": "#0c1d22"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 54,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Lewati ke konten utama",
+      "Aduan"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 147,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "source serif 4",
+     "young serif"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 3991,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header.site-head.wrap",
+      "tag": "header",
+      "top": 0,
+      "height": 147,
+      "words": 8,
+      "media": 0,
+      "middle": 44,
+      "heading": null,
+      "left": 20,
+      "right": 311,
+      "textLeft": 20,
+      "textRight": 311,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "header.page-head.wrap",
+      "tag": "header",
+      "top": 147,
+      "height": 384,
+      "words": 17,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Tentang DPM",
+       "size": 75,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 210,
+      "textLeft": 20,
+      "textRight": 210,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap",
+      "tag": "section",
+      "top": 531,
+      "height": 1171,
+      "words": 82,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Membaca kebijakan dari sisi mahasiswa.",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 162,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.visi.wrap",
+      "tag": "section",
+      "top": 1702,
+      "height": 623,
+      "words": 54,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Visi dan misi.",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 271,
+      "textLeft": 20,
+      "textRight": 271,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap",
+      "tag": "section",
+      "top": 2325,
+      "height": 514,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Tugas dan fungsi.",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 200,
+      "textLeft": 20,
+      "textRight": 200,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap",
+      "tag": "section",
+      "top": 2839,
+      "height": 426,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Ada yang perlu kami dengar?",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 159,
+      "textLeft": 20,
+      "textRight": 159,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-foot.wrap",
+      "tag": "footer",
+      "top": 3265,
+      "height": 727,
+      "words": 56,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "DPM FILKOM",
+       "size": 75,
+       "tag": "span"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Tentang DPM",
+      "size": 75,
+      "top": 249,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 10
+     }
+    ],
+    "leftBlocks": 10,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.3,
+    0.67,
+    0.81,
+    0.47,
+    0.83
+   ],
+   "motion": {
+    "elements": 12,
+    "css": 0,
+    "transitions": 12,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3939,
+     "screens": 4.7,
+     "words": 255,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "tjileboet.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Tentang DPM",
+     "words": 2,
+     "chars": 11,
+     "lines": 2,
+     "size": 54.4,
+     "vw": 13.9,
+     "font": "Young Serif",
+     "weight": 400,
+     "tracking": -0.025,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 281,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Tentang DPM",
+     "words": 2,
+     "lines": 2,
+     "size": 54.4,
+     "font": "Young Serif"
+    },
+    "headings": [
+     {
+      "text": "Tentang DPM",
+      "words": 2,
+      "chars": 11,
+      "lines": 2,
+      "size": 54.4,
+      "vw": 13.9,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 281,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Membaca kebijakan dari sisi mahasiswa.",
+      "words": 5,
+      "chars": 38,
+      "lines": 2,
+      "size": 32.5,
+      "vw": 8.3,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 678,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Visi dan misi.",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 32.5,
+      "vw": 8.3,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1667,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tugas dan fungsi.",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 32.5,
+      "vw": 8.3,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2283,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ada yang perlu kami dengar?",
+      "words": 5,
+      "chars": 27,
+      "lines": 2,
+      "size": 32.5,
+      "vw": 8.3,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2897,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "DPM FILKOM UNIDA",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 46.8,
+      "vw": 12,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3326,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.94,
+       "mono": false
+      },
+      {
+       "family": "Young Serif",
+       "share": 0.06,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      18,
+      20,
+      33,
+      47,
+      54
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 18,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.1
+     },
+     "measureChars": 39,
+     "max": {
+      "size": 54.4,
+      "vw": 13.9,
+      "font": "Young Serif",
+      "text": "Tentang DPM"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#eef0f2",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.13,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#16526b",
+       "top": 1595,
+       "hsl": {
+        "h": 198,
+        "s": 0.66,
+        "l": 0.25
+       }
+      },
+      {
+       "color": "#0c1d22",
+       "top": 3262,
+       "hsl": {
+        "h": 194,
+        "s": 0.48,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0c1d22",
+       "share": 0.58
+      },
+      {
+       "color": "#f5f8f9",
+       "share": 0.24
+      },
+      {
+       "color": "#f4f7f9",
+       "share": 0.1
+      },
+      {
+       "color": "#f7f8f9",
+       "share": 0.04
+      },
+      {
+       "color": "#f5f8f8",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#f09a4b",
+      "hsl": {
+       "h": 29,
+       "s": 0.85,
+       "l": 0.62
+      },
+      "fg": "#0c1d22"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Lewati ke konten utama",
+      "Aduan"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 197,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "source serif 4",
+     "young serif"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 3939,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header.site-head.wrap",
+      "tag": "header",
+      "top": 0,
+      "height": 197,
+      "words": 8,
+      "media": 0,
+      "middle": 26,
+      "heading": null,
+      "left": 20,
+      "right": 27,
+      "textLeft": 20,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "header.page-head.wrap",
+      "tag": "header",
+      "top": 197,
+      "height": 410,
+      "words": 17,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Tentang DPM",
+       "size": 54,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 30,
+      "textLeft": 20,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap",
+      "tag": "section",
+      "top": 606,
+      "height": 989,
+      "words": 82,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Membaca kebijakan dari sisi mahasiswa.",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.visi.wrap",
+      "tag": "section",
+      "top": 1595,
+      "height": 616,
+      "words": 54,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Visi dan misi.",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap",
+      "tag": "section",
+      "top": 2211,
+      "height": 586,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Tugas dan fungsi.",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 28,
+      "textLeft": 20,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap",
+      "tag": "section",
+      "top": 2797,
+      "height": 464,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Ada yang perlu kami dengar?",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 23,
+      "textLeft": 20,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-foot.wrap",
+      "tag": "footer",
+      "top": 3262,
+      "height": 678,
+      "words": 56,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "DPM FILKOM",
+       "size": 47,
+       "tag": "span"
+      },
+      "left": 20,
+      "right": 30,
+      "textLeft": 20,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Tentang DPM",
+      "size": 54,
+      "top": 281,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 10
+     }
+    ],
+    "leftBlocks": 10,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 13 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/alee/Destop/dpm/.taste-skill/after-profil/desktop-fold.jpg",
+   "pages": [
+    "/home/alee/Destop/dpm/.taste-skill/after-profil/desktop-page-01.jpg",
+    "/home/alee/Destop/dpm/.taste-skill/after-profil/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/alee/Destop/dpm/.taste-skill/after-profil/tablet-fold.jpg",
+   "pages": [
+    "/home/alee/Destop/dpm/.taste-skill/after-profil/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/alee/Destop/dpm/.taste-skill/after-profil/mobile-fold.jpg",
+   "pages": [
+    "/home/alee/Destop/dpm/.taste-skill/after-profil/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
