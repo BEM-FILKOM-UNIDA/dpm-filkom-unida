@@ -1,0 +1,253 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { site, kategoriAduan } from "../data/site.js";
+---
+
+<Layout title="Aduan & Aspirasi" description="Saluran aduan dan aspirasi mahasiswa DPM FILKOM UNIDA, langsung ke pengurus.">
+  <section class="hero">
+    <div class="container">
+      <p class="kicker">Saluran suara</p>
+      <h1>Aduan dan aspirasi mahasiswa, <span class="mark">langsung</span> ke pengurus</h1>
+      <p class="lead" style="margin-top: 16px;">
+        Isi form di bawah, keluhanmu terkirim ke WhatsApp pengurus DPM yang bertugas memproses aduan. Tidak ada data yang disimpan di situs ini.
+      </p>
+    </div>
+  </section>
+
+  <section class="block bg-white">
+    <div class="container grid-aduan">
+      <div>
+        <h2>Alur aduan</h2>
+        <ol class="alur">
+          <li>
+            <h3>Isi form</h3>
+            <p>Tulis identitas, kategori, dan isi aduanmu sejelas mungkin.</p>
+          </li>
+          <li>
+            <h3>Kirim via WhatsApp</h3>
+            <p>Form membuka WhatsApp dengan pesan yang sudah terisi otomatis, kamu tinggal tekan kirim.</p>
+          </li>
+          <li>
+            <h3>Diproses komisi</h3>
+            <p>Aduan diteruskan ke komisi terkait dan ditindaklanjuti sesuai kategorinya.</p>
+          </li>
+        </ol>
+
+        <div class="gform-box">
+          <h3>Mau jalur lain?</h3>
+          {
+            site.gformUrl ? (
+              <a class="btn btn-ghost" href={site.gformUrl} target="_blank" rel="noopener">Isi via Google Form</a>
+            ) : (
+              <p>Google Form sedang disiapkan. Gunakan jalur WhatsApp di form ini.</p>
+            )
+          }
+        </div>
+      </div>
+
+      <form id="aduan-form" class="card form-card" novalidate>
+        <div class="field">
+          <label for="nama">Nama lengkap</label>
+          <input id="nama" name="nama" type="text" required autocomplete="name" placeholder="Nama kamu" />
+          <p class="error" data-error-for="nama">Nama tidak boleh kosong</p>
+        </div>
+        <div class="field">
+          <label for="nim">NIM</label>
+          <input id="nim" name="nim" type="text" required inputmode="numeric" placeholder="Contoh: 102202xx" />
+          <p class="error" data-error-for="nim">NIM tidak boleh kosong</p>
+        </div>
+        <div class="field">
+          <label for="kategori">Kategori aduan</label>
+          <select id="kategori" name="kategori" required>
+            {kategoriAduan.map((k) => <option value={k}>{k}</option>)}
+          </select>
+        </div>
+        <div class="field">
+          <label for="pesan">Isi aduan</label>
+          <textarea id="pesan" name="pesan" rows="6" required placeholder="Ceritakan aduanmu, sertakan waktu dan lokasi jika relevan"></textarea>
+          <p class="error" data-error-for="pesan">Isi aduan tidak boleh kosong</p>
+        </div>
+        <button class="btn btn-main" type="submit">Kirim via WhatsApp</button>
+        <p id="aduan-status" class="status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    padding-block: 64px;
+  }
+  .block.bg-white {
+    background: #fff;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .grid-aduan {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    gap: 44px;
+    align-items: start;
+  }
+  .alur {
+    list-style: none;
+    counter-reset: alur;
+    margin-top: 20px;
+  }
+  .alur li {
+    counter-increment: alur;
+    position: relative;
+    padding: 14px 0 14px 52px;
+    border-bottom: 1px solid var(--line);
+  }
+  .alur li:last-child {
+    border-bottom: none;
+  }
+  .alur li::before {
+    content: counter(alur);
+    position: absolute;
+    left: 0;
+    top: 14px;
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    background: var(--teal);
+    color: #fff;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+  }
+  .alur h3 {
+    font-size: 1rem;
+  }
+  .alur p {
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  .gform-box {
+    margin-top: 28px;
+    padding: 20px;
+    border: 1px dashed var(--cyan);
+    border-radius: 12px;
+    background: var(--bg);
+  }
+  .gform-box h3 {
+    margin-bottom: 10px;
+  }
+  .form-card {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .field label {
+    font-weight: 600;
+    font-size: 0.92rem;
+  }
+  .field input,
+  .field select,
+  .field textarea {
+    font: inherit;
+    padding: 12px 14px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--bg);
+    color: var(--ink);
+    min-height: 46px;
+  }
+  .field textarea {
+    resize: vertical;
+    min-height: 140px;
+  }
+  .field input:focus,
+  .field select:focus,
+  .field textarea:focus {
+    border-color: var(--cyan);
+    background: #fff;
+  }
+  .field input[aria-invalid="true"],
+  .field textarea[aria-invalid="true"] {
+    border-color: #c0392b;
+  }
+  .error {
+    display: none;
+    color: #c0392b;
+    font-size: 0.85rem;
+  }
+  .error.show {
+    display: block;
+  }
+  .status {
+    min-height: 22px;
+    color: var(--teal);
+    font-weight: 600;
+    font-size: 0.92rem;
+  }
+  @media (max-width: 860px) {
+    .hero {
+      padding-block: 44px;
+    }
+    .grid-aduan {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+  }
+</style>
+
+<script is:inline define:vars={{ waNumber: site.waNumber }}>
+  const form = document.getElementById("aduan-form");
+  const status = document.getElementById("aduan-status");
+
+  const setError = (name, show) => {
+    const err = form.querySelector(`[data-error-for="${name}"]`);
+    const input = form.querySelector(`[name="${name}"]`);
+    if (err) err.classList.toggle("show", show);
+    if (input) input.setAttribute("aria-invalid", show ? "true" : "false");
+  };
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const fd = new FormData(form);
+    const nama = (fd.get("nama") || "").toString().trim();
+    const nim = (fd.get("nim") || "").toString().trim();
+    const kategori = (fd.get("kategori") || "").toString();
+    const pesan = (fd.get("pesan") || "").toString().trim();
+
+    let valid = true;
+    setError("nama", !nama);
+    setError("nim", !nim);
+    setError("pesan", !pesan);
+    if (!nama || !nim || !pesan) valid = false;
+
+    if (!valid) {
+      status.textContent = "";
+      const first = form.querySelector('[aria-invalid="true"]');
+      if (first) first.focus();
+      return;
+    }
+
+    const msg = [
+      "Halo DPM FILKOM, saya ingin menyampaikan aduan.",
+      "",
+      `Nama: ${nama}`,
+      `NIM: ${nim}`,
+      `Kategori: ${kategori}`,
+      "",
+      "Isi aduan:",
+      pesan,
+    ].join("\n");
+
+    window.open(
+      "https://wa.me/" + waNumber + "?text=" + encodeURIComponent(msg),
+      "_blank",
+      "noopener"
+    );
+    status.textContent = "WhatsApp terbuka di tab baru. Tekan kirim di WhatsApp untuk mengirim aduanmu.";
+  });
+</script>

@@ -1,0 +1,138 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { visi, misi, tugasFungsi } from "../data/site.js";
+---
+
+<Layout title="Profil" description="Sejarah, visi, misi, serta tugas dan fungsi DPM FILKOM UNIDA.">
+  <section class="hero">
+    <div class="container">
+      <p class="kicker">Profil lembaga</p>
+      <h1>Siapa dan untuk siapa <span class="mark">DPM</span></h1>
+      <p class="lead" style="margin-top: 16px;">
+        Dewan Perwakilan Mahasiswa (DPM) adalah lembaga perwakilan mahasiswa tertinggi di lingkungan fakultas, yang mewakili suara seluruh mahasiswa Filkom UNIDA.
+      </p>
+    </div>
+  </section>
+
+  <section class="block bg-white">
+    <div class="container grid-2">
+      <div>
+        <p class="kicker">Sejarah</p>
+        <h2>Dari mana kami berdiri</h2>
+      </div>
+      <div>
+        <p style="color: var(--muted);">
+          DPM Fakultas Ilmu Komputer berdiri untuk menghadirkan lembaga yang mewakili kepentingan mahasiswa di samping pihak fakultas dan lembaga eksekutif mahasiswa.
+          Sejak awal, DPM mengemban tiga fungsi utama: legislasi, budgeting, dan pengawasan.
+        </p>
+        <p style="margin-top: 12px; color: var(--muted);">[Sejarah lengkap dan tahun berdiri akan dilengkapi oleh pengurus.]</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <p class="kicker">Arah lembaga</p>
+      <h2>Visi & Misi</h2>
+      <blockquote class="visi">
+        <p>{visi}</p>
+      </blockquote>
+      <div class="misi-grid">
+        <div>
+          <h3 style="margin-bottom: 12px;">Misi</h3>
+          <ol class="misi-list">
+            {misi.map((m) => <li>{m}</li>)}
+          </ol>
+        </div>
+        <div>
+          <h3 style="margin-bottom: 12px;">Tugas & Fungsi</h3>
+          <ul class="tugas-list">
+            {tugasFungsi.map((t) => <li>{t}</li>)}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block bg-white" style="padding-block: 56px;">
+    <div class="container" style="max-width: 760px;">
+      <h2>Sampaikan suaramu</h2>
+      <p style="margin-top: 12px; color: var(--muted);">
+        Tidak ada perubahan tanpa suara. Aduan dan aspirasi mahasiswa diproses langsung oleh komisi terkait.
+      </p>
+      <p style="margin-top: 20px;">
+        <a class="btn btn-accent" href="/aduan/">Sampaikan Aduan Anda</a>
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    padding-block: 64px;
+  }
+  .block.bg-white {
+    background: #fff;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .visi {
+    margin: 28px 0 36px;
+    padding: 28px 32px;
+    border-left: 4px solid var(--cyan);
+    background: #fff;
+    border-radius: 0 12px 12px 0;
+    border-top: 1px solid var(--line);
+    border-right: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .visi p {
+    font-size: clamp(1.15rem, 2.5vw, 1.5rem);
+    font-weight: 700;
+    line-height: 1.45;
+    color: var(--teal);
+  }
+  .misi-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 8px;
+  }
+  .misi-list {
+    padding-left: 20px;
+  }
+  .misi-list li {
+    margin-bottom: 10px;
+  }
+  .tugas-list {
+    list-style: none;
+  }
+  .tugas-list li {
+    margin-bottom: 12px;
+    padding-left: 28px;
+    position: relative;
+  }
+  .tugas-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+    background: var(--cyan);
+  }
+  @media (max-width: 720px) {
+    .hero {
+      padding-block: 44px;
+    }
+    .grid-2 {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    .misi-grid {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+  }
+</style>

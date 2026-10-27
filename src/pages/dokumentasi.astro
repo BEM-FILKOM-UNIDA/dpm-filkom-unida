@@ -1,0 +1,59 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Dokumentasi" description="Dokumentasi kegiatan dan kerja DPM FILKOM UNIDA.">
+  <section class="hero">
+    <div class="container">
+      <p class="kicker">Jejak kerja</p>
+      <h1>Dokumentasi <span class="mark">kegiatan</span></h1>
+      <p class="lead" style="margin-top: 16px;">
+        Rekam jejak kegiatan, rapat, dan aksi DPM dalam perjalanan melayani mahasiswa.
+      </p>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="container">
+      <div class="empty">
+        <h2>Belum ada dokumentasi</h2>
+        <p>
+          Foto dan laporan kegiatan akan dimuat di sini setelah pengurus mengumpulkan material.
+          Cek kembali halaman ini di lain waktu.
+        </p>
+        <p style="margin-top: 20px;">
+          <a class="btn btn-ghost" href="/profil/">Lihat Profil DPM</a>
+        </p>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    padding-block: 64px;
+  }
+  .block {
+    padding-top: 0;
+  }
+  .empty {
+    background: #fff;
+    border: 1px dashed var(--line);
+    border-radius: 12px;
+    padding: 64px 24px;
+    text-align: center;
+  }
+  .empty h2 {
+    margin-bottom: 12px;
+  }
+  .empty p {
+    color: var(--muted);
+    max-width: 52ch;
+    margin-inline: auto;
+  }
+  @media (max-width: 720px) {
+    .hero {
+      padding-block: 44px;
+    }
+  }
+</style>

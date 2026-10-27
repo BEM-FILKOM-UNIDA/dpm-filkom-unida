@@ -1,0 +1,155 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { pembina, pengurus, komisi } from "../data/site.js";
+
+const inisial = (nama: string) =>
+  nama
+    .replace(/[\[\]]/g, "")
+    .split(" ")
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((k) => k[0])
+    .join("")
+    .toUpperCase() || "?";
+---
+
+<Layout title="Struktur" description="Struktur kepengurusan dan komisi DPM FILKOM UNIDA.">
+  <section class="hero">
+    <div class="container">
+      <p class="kicker">Kepengurusan</p>
+      <h1>Struktur kepengurusan <span class="mark">DPM</span></h1>
+      <p class="lead" style="margin-top: 16px;">
+        Kepengurusan terbagi menjadi pimpinan dan tiga komisi kerja: legislasi, kepengawasan, dan anggaran.
+      </p>
+    </div>
+  </section>
+
+  <section class="satu" style="background:#fff; border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding-block:56px;">
+    <div class="container">
+      <h2 style="margin-bottom: 20px;">Pimpinan</h2>
+      <div class="orang-grid">
+        {
+          pembina ? (
+            <div class="orang">
+              <div class="avatar">{inisial(pembina.nama)}</div>
+              <h3>{pembina.nama}</h3>
+              <p>{pembina.jabatan}</p>
+            </div>
+          ) : null
+        }
+        {
+          pengurus.map((p) => (
+            <div class="orang">
+              <div class="avatar">{inisial(p.nama)}</div>
+              <h3>{p.nama}</h3>
+              <p>{p.peran}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <p class="kicker">Komisi kerja</p>
+      <h2>Tiga komisi, tiga tugas</h2>
+      {komisi.map((k) => (
+        <div class="komisi card">
+          <div class="komisi-nilai" aria-hidden="true">{k.nama.match(/\d+/) ? k.nama.match(/\d+/)[0] : "•"}</div>
+          <div>
+            <h3>{k.nama}</h3>
+            <p>{k.tugas}</p>
+            <div class="anggota">
+              {k.anggota.map((a) => (
+                <span class="chip">{a}</span>
+              ))}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    padding-block: 64px;
+  }
+  .orang-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .orang {
+    text-align: left;
+  }
+  .avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    background: var(--teal);
+    color: #fff;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15rem;
+    letter-spacing: 0.02em;
+    margin-bottom: 12px;
+  }
+  .orang h3 {
+    font-size: 0.98rem;
+  }
+  .orang p {
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .komisi {
+    display: grid;
+    grid-template-columns: 72px 1fr;
+    gap: 20px;
+    align-items: start;
+    margin-top: 24px;
+  }
+  .komisi-nilai {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    background: #e4eff3;
+    color: var(--teal);
+    font-weight: 800;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .komisi h3 {
+    margin-bottom: 6px;
+  }
+  .anggota {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
+  }
+  .chip {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    color: var(--muted);
+    background: var(--bg);
+  }
+  @media (max-width: 720px) {
+    .hero {
+      padding-block: 44px;
+    }
+    .orang-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .komisi {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

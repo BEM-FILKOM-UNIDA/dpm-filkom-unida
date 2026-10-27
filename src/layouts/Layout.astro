@@ -1,0 +1,110 @@
+---
+import "../styles/global.css";
+import { site } from "../data/site.js";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Situs resmi Dewan Perwakilan Mahasiswa, Fakultas Ilmu Komputer, Universitas Djuanda." } = Astro.props;
+
+const nav = [
+  { href: "/", label: "Beranda" },
+  { href: "/profil/", label: "Profil" },
+  { href: "/struktur/", label: "Struktur" },
+  { href: "/aduan/", label: "Aduan" },
+  { href: "/dokumentasi/", label: "Dokumentasi" },
+];
+const current = (Astro.url.pathname.replace(/\/$/, "") || "/") + "/";
+const isCurrent = (href: string) => (href === "/" ? current || "/" === "/" : current.startsWith(href));
+---
+
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} | {site.short}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/webp" href="/images/logo-dpm.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Lewati ke konten utama</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/">
+          <img src="/images/logo-dpm.webp" alt="Logo DPM FILKOM UNIDA" width="42" height="42" />
+          <span class="brand-name">DPM <b>FILKOM</b> UNIDA</span>
+        </a>
+        <nav class="main-nav" aria-label="Navigasi utama">
+          {
+            nav.map((n) => (
+              <a href={n.href} aria-current={isCurrent(n.href) ? "page" : undefined}>
+                {n.label}
+              </a>
+            ))
+          }
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand" href="/">
+            <img src="/images/logo-dpm.webp" alt="" width="42" height="42" />
+            <span class="brand-name">DPM <b>FILKOM</b> UNIDA</span>
+          </a>
+          <p class="footer-desc" style="margin-top: 14px;">
+            {site.full}. Lembaga perwakilan mahasiswa yang menampung, mengawal, dan memperjuangkan suara mahasiswa fakultas.
+          </p>
+        </div>
+        <div>
+          <h3>Halaman</h3>
+          <ul>
+            <li><a href="/">Beranda</a></li>
+            <li><a href="/profil/">Profil</a></li>
+            <li><a href="/struktur/">Struktur</a></li>
+            <li><a href="/aduan/">Aduan</a></li>
+            <li><a href="/dokumentasi/">Dokumentasi</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Kontak</h3>
+          <ul>
+            {
+              site.instagram ? (
+                <li>
+                  Instagram: <a href={`https://instagram.com/${site.instagram}`}>@{site.instagram}</a>
+                </li>
+              ) : (
+                <li>Instagram: segera diumumkan</li>
+              )
+            }
+            {
+              site.email ? (
+                <li>
+                  Email: <a href={`mailto:${site.email}`}>{site.email}</a>
+                </li>
+              ) : (
+                <li>Email: segera diumumkan</li>
+              )
+            }
+            <li>[Alamat resmi fakultas]</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">Copyright {new Date().getFullYear()} {site.short}</div>
+      </div>
+    </footer>
+  </body>
+</html>

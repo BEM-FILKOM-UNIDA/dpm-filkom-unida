@@ -1,0 +1,160 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { site } from "../data/site.js";
+---
+
+<Layout
+  title="Beranda"
+  description="Situs resmi Dewan Perwakilan Mahasiswa, Fakultas Ilmu Komputer, Universitas Djuanda. Suara mahasiswa, diperjuangkan."
+>
+  <section class="hero">
+    <div class="container grid-2">
+      <div>
+        <p class="kicker">Dewan Perwakilan Mahasiswa</p>
+        <h1>Suara mahasiswa <span class="mark">diperjuangkan</span>, bukan disimpan.</h1>
+        <p class="lead" style="margin-top: 16px;">
+          {site.full}. DPM hadir untuk menampung aspirasi, mengawal kebijakan, dan mengawasi kinerja lembaga mahasiswa di lingkungan fakultas.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-accent" href="/aduan/">Sampaikan Aduan Anda</a>
+          <a class="btn btn-ghost" href="/profil/">Kenali DPM</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="/images/logo-dpm.webp" alt="Logo DPM FILKOM UNIDA" width="320" height="320" loading="eager" />
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container grid-2">
+      <div>
+        <p class="kicker">Peran kelembagaan</p>
+        <h2>Apa itu DPM?</h2>
+        <p class="about-copy">
+          DPM adalah lembaga perwakilan mahasiswa yang berdiri setara dengan lembaga eksekutif mahasiswa.
+          Posisinya dijaga agar suara mahasiswa tidak berhenti di ruang rapat, tetapi sampai dan ditindaklanjuti.
+        </p>
+        <p style="margin-top: 18px;">
+          <a class="text-link" href="/profil/">Baca profil lengkap</a>
+        </p>
+      </div>
+      <ol class="peran-list">
+        <li>
+          <h3>Legislasi</h3>
+          <p>Menyusun aturan kelembagaan dan regulasi kemahasiswaan di lingkungan fakultas.</p>
+        </li>
+        <li>
+          <h3>Budgeting</h3>
+          <p>Meninjau rencana anggaran lembaga dan menjaga penggunaannya transparan.</p>
+        </li>
+        <li>
+          <h3>Pengawasan</h3>
+          <p>Mengawasi kinerja lembaga eksekutif dan menindaklanjuti temuan bersama fakultas.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="quick">
+    <div class="container">
+      <p class="kicker">Akses cepat</p>
+      <h2>Apa yang bisa kamu lakukan di sini?</h2>
+      <div class="quick-grid">
+        <a class="card card-featured" href="/aduan/">
+          <h3>Sampaikan Aduan</h3>
+          <p>Punya keluhan akademik atau fasilitas? Kirim langsung lewat form aduan, tanpa antre dan langsung ke pengurus.</p>
+        </a>
+        <a class="card" href="/struktur/">
+          <h3>Lihat Struktur</h3>
+          <p>Kenali pengurus dan komisi yang bertugas menampung suaramu.</p>
+        </a>
+        <a class="card" href="/dokumentasi/">
+          <h3>Dokumentasi</h3>
+          <p>Jejakan kegiatan dan kerja DPM dari waktu ke waktu.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    padding-block: 72px;
+  }
+  .hero-art img {
+    margin-inline: auto;
+  }
+  .cta-row {
+    display: flex;
+    gap: 12px;
+    margin-top: 28px;
+    flex-wrap: wrap;
+  }
+  .about {
+    background: #fff;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .about-copy {
+    margin-top: 14px;
+    color: var(--muted);
+  }
+  .peran-list {
+    list-style: none;
+    counter-reset: peran;
+  }
+  .peran-list li {
+    counter-increment: peran;
+    padding: 18px 0 18px 64px;
+    position: relative;
+    border-bottom: 1px solid var(--line);
+  }
+  .peran-list li:last-child {
+    border-bottom: none;
+  }
+  .peran-list li::before {
+    content: counter(peran, decimal-leading-zero);
+    position: absolute;
+    left: 0;
+    top: 18px;
+    font-weight: 800;
+    color: var(--cyan);
+    font-size: 1.4rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .peran-list h3 {
+    margin-bottom: 4px;
+  }
+  .peran-list p {
+    color: var(--muted);
+  }
+  .quick-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 28px;
+  }
+  .quick-grid h3 {
+    margin-bottom: 8px;
+  }
+  .quick-grid p {
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  @media (max-width: 720px) {
+    .hero {
+      padding-block: 44px;
+    }
+    .grid-2 {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+    .about {
+      padding-block: 44px;
+    }
+    .quick-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
