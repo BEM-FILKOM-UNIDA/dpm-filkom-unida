@@ -1,55 +1,76 @@
 ---
 import Layout from "../layouts/Layout.astro";
+
+const arsip = [
+  "Risalah rapat pleno",
+  "Laporan komisi",
+  "Dokumen anggaran",
+  "Agenda kegiatan",
+];
 ---
 
 <Layout
   title="Dokumentasi"
   description="Arsip kerja DPM FILKOM UNIDA: risalah rapat, laporan komisi, dan dokumen anggaran."
 >
-  <header class="page-head wrap">
-    <div class="axis">
-      <p class="side" data-reveal>Arsip kerja</p>
-      <h1 data-reveal>Dokumentasi</h1>
-      <p class="standfirst" data-reveal>
+  <header class="page-head container">
+    <div class="page-head-inner">
+      <h1>Dokumentasi</h1>
+      <p class="label">Arsip kerja</p>
+      <p class="standfirst">
         Risalah rapat, laporan komisi, dan dokumen anggaran. Arsip dibuka setelah dokumen siap
         dipublikasikan.
       </p>
     </div>
   </header>
 
-  <section class="archive wrap" aria-labelledby="arsip-title">
-    <div class="axis">
-      <h2 id="arsip-title" data-reveal>Arsip belum dibuka.</h2>
-      <div class="col-2" data-reveal>
-        <p>
-          Belum ada dokumen yang bisa diunduh. Kami tidak mengunggah arsip setengah jadi atau
-          dokumen yang belum diverifikasi. Halaman ini akan berisi arsip yang bisa dibaca siapa
-          saja.
+  <section class="section" aria-labelledby="arsip-title">
+    <div class="container">
+      <div class="section-head section-head--label">
+        <h2 id="arsip-title">Arsip belum dibuka.</h2>
+        <p class="label">Status arsip</p>
+        <p class="lead">
+          Belum ada dokumen yang bisa diunduh. Kami tidak mengunggah arsip setengah jadi atau dokumen
+          yang belum diverifikasi. Halaman ini akan berisi arsip yang bisa dibaca siapa saja.
         </p>
       </div>
-    </div>
-    <ul class="archive-list">
-      <li data-reveal><span>Risalah rapat pleno</span><span>menyusul</span></li>
-      <li data-reveal><span>Laporan komisi</span><span>menyusul</span></li>
-      <li data-reveal><span>Dokumen anggaran</span><span>menyusul</span></li>
-      <li data-reveal><span>Agenda kegiatan</span><span>menyusul</span></li>
-    </ul>
-    <div class="archive-actions" data-reveal>
-      <a class="btn" href="/aduan/">Tanyakan arsip</a>
-      <p>Dokumen yang memuat data pribadi mahasiswa tidak akan dipublikasikan.</p>
+
+      <table class="table archive-table">
+        <caption>Dokumen yang disiapkan DPM.</caption>
+        <thead>
+          <tr>
+            <th scope="col">Dokumen</th>
+            <th scope="col" class="state">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          {arsip.map((a) => (
+            <tr>
+              <th scope="row">{a}</th>
+              <td class="state"><span class="tag tag--out">menyusul</span></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+
+      <div class="archive-actions">
+        <a class="btn" href="/aduan/">Tanyakan arsip</a>
+        <p>Dokumen yang memuat data pribadi mahasiswa tidak akan dipublikasikan.</p>
+      </div>
     </div>
   </section>
 
-  <section class="wrap" aria-labelledby="dok-cta">
-    <div class="axis">
-      <p class="side">Butuh dokumen tertentu?</p>
-      <div class="col-2" data-reveal>
+  <section class="section band" aria-labelledby="dok-cta">
+    <div class="container">
+      <div class="split">
         <h2 id="dok-cta">Minta lewat jalur resmi.</h2>
-        <p class="lead mt-24">
-          Sebutkan dokumen yang kamu butuhkan dan alasannya. Permintaan akan diteruskan ke
-          sekretariat DPM.
-        </p>
-        <p class="mt-40"><a class="btn btn-accent" href="/aduan/">Hubungi DPM</a></p>
+        <div class="prose">
+          <p>
+            Sebutkan dokumen yang kamu butuhkan dan alasannya. Permintaan akan diteruskan ke
+            sekretariat DPM.
+          </p>
+          <p><a class="btn btn--primary" href="/aduan/">Hubungi DPM</a></p>
+        </div>
       </div>
     </div>
   </section>

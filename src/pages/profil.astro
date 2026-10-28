@@ -9,23 +9,25 @@ const historyPlate = peran[1];
   title="Profil"
   description="Profil Dewan Perwakilan Mahasiswa Fakultas Ilmu Komputer Universitas Djuanda: sejarah, visi, misi, tugas, dan fungsi."
 >
-  <header class="page-head wrap">
-    <div class="axis">
-      <p class="side" data-reveal>Profil lembaga</p>
-      <h1 data-reveal>Tentang DPM</h1>
-      <p class="standfirst" data-reveal>
+  <header class="page-head container">
+    <div class="page-head-inner">
+      <h1>Tentang DPM</h1>
+      <p class="label">Profil lembaga</p>
+      <p class="standfirst">
         Lembaga perwakilan mahasiswa tingkat fakultas: siapa kami, apa yang kami jaga, dan bagaimana
         kami bekerja.
       </p>
     </div>
   </header>
 
-  <section class="wrap" aria-labelledby="sejarah-title">
-    <div class="axis">
-      <p class="side">Sejarah singkat</p>
-      <div class="col-2" data-reveal>
+  <section class="section" aria-labelledby="sejarah-title">
+    <div class="container">
+      <div class="section-head section-head--label">
         <h2 id="sejarah-title">Membaca kebijakan dari sisi mahasiswa.</h2>
-        <div class="prose mt-40">
+        <p class="label">Sejarah singkat</p>
+      </div>
+      <div class="split">
+        <div class="prose col-inset">
           <p>
             DPM FILKOM UNIDA lahir dari kebutuhan sederhana: mahasiswa butuh wakil yang duduk di meja
             yang sama dengan pengambil kebijakan fakultas. DPM bekerja sebagai lembaga legislatif dan
@@ -37,53 +39,60 @@ const historyPlate = peran[1];
           </p>
         </div>
       </div>
+
+      <figure class="plate thick-rule plate-section">
+        <img
+          class="band-plate"
+          src={historyPlate.img}
+          alt={historyPlate.alt}
+          width="1920"
+          height="1354"
+          loading="lazy"
+        />
+        <figcaption>{historyPlate.caption}<span class="credit">{historyPlate.credit}</span></figcaption>
+      </figure>
     </div>
-    <figure class="plate band" data-reveal>
-      <img
-        src={historyPlate.img}
-        alt={historyPlate.alt}
-        width="1920"
-        height="1354"
-        loading="lazy"
-      />
-      <figcaption>{historyPlate.caption}<span class="credit">{historyPlate.credit}</span></figcaption>
-    </figure>
   </section>
 
-  <section class="visi wrap" aria-labelledby="visi-title">
-    <div class="axis">
-      <h2 id="visi-title" data-reveal>Visi dan misi.</h2>
-      <div class="col-2" data-reveal>
+  <section class="section band" aria-labelledby="visi-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="visi-title">Visi dan misi.</h2>
+      </div>
+      <div class="visi-grid">
         <p class="statement">{visi}</p>
-        <ul class="mt-40">
-          {misi.map((m) => <li data-reveal>{m}</li>)}
+        <ul class="visi-list">
+          {misi.map((m) => <li>{m}</li>)}
         </ul>
       </div>
     </div>
   </section>
 
-  <section class="wrap" aria-labelledby="tugas-title">
-    <div class="axis">
-      <p class="side">Yang menempel pada jabatan</p>
-      <div class="col-2" data-reveal>
+  <section class="section" aria-labelledby="tugas-title">
+    <div class="container">
+      <div class="section-head section-head--label">
         <h2 id="tugas-title">Tugas dan fungsi.</h2>
-        <ol class="tugas mt-40">
+        <p class="label">Yang menempel pada jabatan</p>
+      </div>
+      <div class="split">
+        <ol class="tugas-list col-inset">
           {tugasFungsi.map((t) => <li>{t}</li>)}
         </ol>
       </div>
     </div>
   </section>
 
-  <section class="wrap" aria-labelledby="profil-cta">
-    <div class="axis">
-      <div></div>
-      <div class="col-2" data-reveal>
+  <section class="section band band--ink" aria-labelledby="profil-cta">
+    <div class="container">
+      <div class="split">
         <h2 id="profil-cta">Ada yang perlu kami dengar?</h2>
-        <p class="lead mt-24">
-          Aduan, usul, atau temuan bisa dikirim langsung ke pengurus. Setiap pesan dicatat dan
-          diteruskan ke komisi yang mengurusnya.
-        </p>
-        <p class="mt-40"><a class="btn btn-accent" href="/aduan/">Sampaikan aduan</a></p>
+        <div class="prose">
+          <p>
+            Aduan, usul, atau temuan bisa dikirim langsung ke pengurus. Setiap pesan dicatat dan
+            diteruskan ke komisi yang mengurusnya.
+          </p>
+          <p><a class="btn" href="/aduan/">Sampaikan aduan</a></p>
+        </div>
       </div>
     </div>
   </section>

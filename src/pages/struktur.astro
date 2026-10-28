@@ -11,82 +11,89 @@ const orang = [...pimpinan, { nama: pembina.nama, peran: pembina.peran }];
   title="Struktur"
   description="Struktur organisasi DPM FILKOM UNIDA: pimpinan, komisi legislasi, komisi kepengawasan, dan komisi anggaran."
 >
-  <header class="page-head wrap">
-    <div class="axis">
-      <p class="side" data-reveal>Struktur organisasi</p>
-      <h1 data-reveal>Struktur</h1>
-      <p class="standfirst" data-reveal>
+  <header class="page-head container">
+    <div class="page-head-inner">
+      <h1>Struktur</h1>
+      <p class="label">Struktur organisasi</p>
+      <p class="standfirst">
         Pimpinan, tiga komisi kerja, dan pembina. Nama pengurus diperbarui setelah rapat pleno.
       </p>
     </div>
-    <figure class="plate band" data-reveal>
-      <img
-        src={bandPlate.img}
-        alt={bandPlate.alt}
-        width={bandPlate.width}
-        height={bandPlate.height}
-        loading="lazy"
-      />
-      <figcaption>{bandPlate.caption}<span class="credit">{bandPlate.credit}</span></figcaption>
-    </figure>
   </header>
 
-  <section class="wrap" aria-labelledby="pimpinan-title">
-    <div class="axis">
-      <div>
-        <p class="side">Periode berjalan</p>
-        <p class="aside-note" data-reveal>
+  <section class="archive" aria-label="Foto arsip">
+    <div class="container">
+      <figure class="plate">
+        <img
+          src={bandPlate.img}
+          alt={bandPlate.alt}
+          width={bandPlate.width}
+          height={bandPlate.height}
+          loading="eager"
+          fetchpriority="high"
+        />
+        <figcaption>{bandPlate.caption}<span class="credit">{bandPlate.credit}</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="pimpinan-title">
+    <div class="container">
+      <div class="section-head section-head--label">
+        <h2 id="pimpinan-title">Pimpinan.</h2>
+        <p class="label">Periode berjalan</p>
+        <p class="lead">
           Pimpinan memimpin rapat pleno, mewakili DPM di forum fakultas, dan menjaga jalannya tiga
           komisi.
         </p>
       </div>
-      <div class="col-2">
-        <h2 id="pimpinan-title">Pimpinan.</h2>
+
+      <div class="register">
+        {orang.map((o) => (
+          <div class="person">
+            <span class="role">{o.peran}</span>
+            <span class="name">{o.nama}</span>
+          </div>
+        ))}
       </div>
-    </div>
-    <div class="people mt-40" data-reveal>
-      {orang.map((o) => (
-        <div class="person">
-          <span class="role">{o.peran}</span>
-          <span class="name">{o.nama}</span>
-        </div>
-      ))}
     </div>
   </section>
 
-  <section class="wrap" aria-labelledby="komisi-kerja-title">
-    <div class="axis">
-      <p class="side">Tiga komisi kerja</p>
-      <div class="col-2">
+  <section class="section band" aria-labelledby="komisi-kerja-title">
+    <div class="container">
+      <div class="section-head section-head--label">
         <h2 id="komisi-kerja-title">Komisi kerja.</h2>
+        <p class="label">Tiga komisi kerja</p>
       </div>
-    </div>
-    <div class="komisi-list mt-40">
-      {komisi.map((k) => (
-        <article class="komisi-row" id={k.id} data-reveal>
-          <div>
-            <p class="small">{k.fokus}</p>
-            <h3>{k.nama}</h3>
-          </div>
-          <div class="body">
-            <p>{k.tugas}</p>
-            <p class="anggota">Anggota: {k.anggota.join(", ")}.</p>
-          </div>
-        </article>
-      ))}
+
+      <div class="rows">
+        {komisi.map((k) => (
+          <article class="row komisi-row" id={k.id}>
+            <div class="row-title">
+              <h3>{k.nama}</h3>
+              <p class="members">{k.fokus}</p>
+            </div>
+            <div class="row-body">
+              <p>{k.tugas}</p>
+              <p class="members">Anggota: {k.anggota.join(", ")}.</p>
+            </div>
+          </article>
+        ))}
+      </div>
     </div>
   </section>
 
-  <section class="visi wrap" aria-labelledby="struktur-cta">
-    <div class="axis">
-      <div></div>
-      <div class="col-2" data-reveal>
+  <section class="section band--ink" aria-labelledby="struktur-cta">
+    <div class="container">
+      <div class="split">
         <h2 id="struktur-cta">Aduan masuk lewat komisi yang tepat.</h2>
-        <p class="lead mt-24">
-          Tulis aduanmu di kartu aspirasi. Kategori yang kamu pilih menentukan komisi yang
-          menindaklanjuti.
-        </p>
-        <p class="mt-40"><a class="btn btn-accent" href="/aduan/">Sampaikan aduan</a></p>
+        <div class="prose">
+          <p>
+            Tulis aduanmu di kartu aspirasi. Kategori yang kamu pilih menentukan komisi yang
+            menindaklanjuti.
+          </p>
+          <p><a class="btn" href="/aduan/">Sampaikan aduan</a></p>
+        </div>
       </div>
     </div>
   </section>

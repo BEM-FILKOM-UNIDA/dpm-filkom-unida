@@ -31,31 +31,30 @@ const waLink = `https://wa.me/${site.waNumber}`;
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Young+Serif&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <script is:inline>
-      document.documentElement.classList.add("js");
-    </script>
-    <noscript>
-      <style>
-        [data-reveal] { opacity: 1 !important; transform: none !important; }
-      </style>
-    </noscript>
+    <style is:inline>
+      /* the sticky nav depends on clip, never hidden (base.css carries the same pair) */
+      html,
+      body {
+        overflow-x: clip;
+      }
+    </style>
   </head>
   <body>
     <a class="skip-link" href="#main">Lewati ke konten utama</a>
 
-    <header class="site-head wrap">
-      <div class="axis">
+    <header class="site-nav">
+      <div class="nav-shell container">
         <a class="wordmark" href="/">
-          <img src="/images/logo-dpm.webp" alt="Logo DPM FILKOM UNIDA" width="34" height="34" />
+          <img src="/images/logo-dpm.webp" alt="Logo DPM FILKOM UNIDA" width="32" height="32" />
           <span>DPM FILKOM UNIDA</span>
         </a>
-        <nav class="main-nav" aria-label="Navigasi utama">
+        <nav class="nav-links" aria-label="Navigasi utama">
           {nav.map((n) => <a href={n.href} aria-current={isCurrent(n.href) ? "page" : undefined}>{n.label}</a>)}
-          <a class="nav-cta" href="/aduan/" aria-current={isCurrent("/aduan/") ? "page" : undefined}>Aduan</a>
         </nav>
+        <a class="nav-cta" href="/aduan/" aria-current={isCurrent("/aduan/") ? "page" : undefined}>Aduan</a>
       </div>
     </header>
 
@@ -63,107 +62,42 @@ const waLink = `https://wa.me/${site.waNumber}`;
       <slot />
     </main>
 
-    <footer class="site-foot wrap">
-      <p class="foot-name"><span>DPM FILKOM</span> <span>UNIDA</span></p>
-      <p class="foot-line">Menampung, mengawal, dan memperjuangkan suara mahasiswa fakultas.</p>
+    <footer class="site-foot container">
+      <div class="foot-top">
+        <div class="foot-brand">
+          <p class="foot-name">DPM FILKOM<br />UNIDA</p>
+          <p class="foot-line">Menampung, mengawal, dan memperjuangkan suara mahasiswa fakultas.</p>
+        </div>
 
-      <div class="foot-grid">
-        <nav class="foot-nav" aria-label="Navigasi footer">
-          <a href="/profil/">Profil</a>
-          <a href="/struktur/">Struktur</a>
-          <a href="/aduan/">Aduan</a>
-          <a href="/dokumentasi/">Dokumentasi</a>
-        </nav>
-        <div class="foot-credits">
-          <p>{site.city}.</p>
-          <p>
-            <a href={waLink}>WhatsApp pengurus</a>
-            {site.instagram && <> · <a href={`https://instagram.com/${site.instagram}`}>@{site.instagram}</a></>}
-            {site.email && <> · <a href={`mailto:${site.email}`}>{site.email}</a></>}
-            {!site.instagram && !site.email && <> · Instagram dan email segera diumumkan.</>}
-          </p>
-          <p style="margin-top: 12px;">{kreditFoto}</p>
+        <div class="foot-cols">
+          <div class="foot-col">
+            <p class="foot-col-title">Situs</p>
+            <nav aria-label="Navigasi footer">
+              <a href="/profil/">Profil</a>
+              <a href="/struktur/">Struktur</a>
+              <a href="/aduan/">Aduan</a>
+              <a href="/dokumentasi/">Dokumentasi</a>
+            </nav>
+          </div>
+          <div class="foot-col">
+            <p class="foot-col-title">Jalur resmi</p>
+            <p><a href={waLink}>WhatsApp pengurus</a></p>
+            {site.instagram && <p><a href={`https://instagram.com/${site.instagram}`}>@{site.instagram}</a></p>}
+            {site.email && <p><a href={`mailto:${site.email}`}>{site.email}</a></p>}
+            {!site.instagram && !site.email && <p>Instagram dan email segera diumumkan.</p>}
+          </div>
+          <div class="foot-col">
+            <p class="foot-col-title">Sekretariat</p>
+            <p>{site.city}.</p>
+          </div>
         </div>
       </div>
 
       <div class="foot-bottom">
         <span>© {new Date().getFullYear()} {site.short}</span>
+        <span>{kreditFoto}</span>
         <span>Situs statis. Tidak menyimpan data aduan.</span>
       </div>
     </footer>
-
-    <script is:inline>
-      const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      const reveals = document.querySelectorAll("[data-reveal]");
-      if (reduced || !("IntersectionObserver" in window)) {
-        reveals.forEach((el) => el.classList.add("is-in"));
-      } else {
-        const io = new IntersectionObserver(
-          (entries) => {
-            entries.forEach((entry) => {
-              if (entry.isIntersecting) {
-                entry.target.classList.add("is-in");
-                io.unobserve(entry.target);
-              }
-            });
-          },
-          { threshold: 0.12 }
-        );
-        reveals.forEach((el) => io.observe(el));
-      }
-
-      const scene = document.querySelector("[data-deck-scene]");
-      if (scene) {
-        const cards = [...scene.querySelectorAll(".kcard")];
-        const mobile = window.matchMedia("(max-width: 860px)");
-        let step = 0;
-
-        const live = () => !mobile.matches && !reduced;
-
-        const apply = (next) => {
-          step = next;
-          cards.forEach((card, i) => {
-            card.dataset.state = i < next ? "spine" : i === next ? "current" : "next";
-          });
-        };
-
-        const onScroll = () => {
-          if (!live()) return;
-          const top = scene.getBoundingClientRect().top + window.scrollY;
-          const travel = scene.offsetHeight - window.innerHeight;
-          const progress = Math.min(1, Math.max(0, (window.scrollY - top) / travel));
-          const next = Math.round(progress * (cards.length - 1));
-          if (next !== step) apply(next);
-        };
-
-        const jump = (i) => {
-          if (!live()) return;
-          const top = scene.getBoundingClientRect().top + window.scrollY;
-          const travel = scene.offsetHeight - window.innerHeight;
-          window.scrollTo({ top: top + (i / (cards.length - 1)) * travel + 2, behavior: "smooth" });
-        };
-
-        const sync = () => {
-          const on = live();
-          scene.classList.toggle("deck-live", on);
-          if (on) {
-            apply(step);
-            onScroll();
-          } else {
-            cards.forEach((card) => card.removeAttribute("data-state"));
-          }
-        };
-
-        cards.forEach((card, i) => {
-          const spine = card.querySelector(".kspine");
-          if (spine) spine.addEventListener("click", () => jump(i));
-        });
-
-        sync();
-        window.addEventListener("scroll", onScroll, { passive: true });
-        window.addEventListener("resize", sync);
-        mobile.addEventListener("change", sync);
-      }
-    </script>
   </body>
 </html>
